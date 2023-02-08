@@ -1,0 +1,156 @@
+/* variables */
+:root {
+    /* navy blue */
+    --headline-color: #2E2F42;
+    /* slate */
+    --secondary-color: #434455;
+    /* iris */
+    --logo-style-color: #4D5AE5;
+
+    --button-color: #404BBF;
+    --logo-footer-color: #F4F4FD;
+    --simple-white:#fff;
+    --footer-social-logo-color:rgba(255, 255, 255, 0.1);
+    --accent-color:#31D0AA;
+    --customers-border-color: #8E8F99;
+    --animation-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: var(--secondary-color) ;
+}
+
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+/* -----------------Header------------------ */
+
+.header{
+    display: flex;
+}
+
+.header-style {
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.container {
+    width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -----------------Logo------------------ */
+
+.logo{
+    
+}
+
+.logo-first-part {
+    display: inline-block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color:var(--logo-style-color);
+    text-transform: uppercase;
+}
+
+.logo-second-part {
+    display: inline-block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--headline-color);
+    text-transform: uppercase;
+}
+.logo-second-part-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--logo-footer-color);
+    text-transform: uppercase;
+}
+
+.menu-icon{
+    margin-left: auto;
+}
+
+/* -----------------Navigation------------------ */
+
+.navigation {
+    display: none;
+}
+
+.navigation-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--headline-color);
+}
+
+.navigation-list .nav-link {
+    display: inline-block;
+}
+
+.navigation-list .item+.item{
+
+}
+
+.navigation-list .item{
+
+}
+
+
+/* -----------------Address-List------------------ */
+
+.address {
+    display: none;
+}
+
+.address-list{
+    
+}
+
+.address-list .item+.item {
+ 
+}
