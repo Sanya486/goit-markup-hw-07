@@ -397,7 +397,7 @@ p,ul {
 
 /* -----------------Customers------------------ */
 
-.customers{
+.customers-container{
     padding: 96px 16px;
 }
 .customers .title{
@@ -1077,7 +1077,7 @@ p,ul {
 }
 
 .examples-list .item{
-    hi
+    
 }
 
 

@@ -1,0 +1,153 @@
+@media screen and (min-width:768px){
+    /* -----------------Menu-slider------------------ */
+    .menu-toggle{
+        display: none;
+    }
+    /* -----------------Header------------------ */
+
+
+
+    .container {
+        max-width: 768px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .address{
+        display: block;
+    }
+
+    /* -----------------Logo------------------ */
+
+    .logo{
+        margin-right: 120px;
+    }
+
+    /* -----------------Navigation------------------ */
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation-list {
+        display: flex;
+        gap: 40px;
+
+    }
+
+    .navigation-list .nav-link{
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5px;
+
+
+        letter-spacing: 0.02em;
+
+        color: var(--headline-color);
+    }
+
+    /* -----------------Address-List------------------ */
+
+    .address {
+        display: block;
+        margin-left: auto;
+    }
+
+    .address-list .address-item{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+        color: #434455;
+    }
+
+    /* -----------------Hero section------------------ */
+    
+    .headline-section {
+        padding-top: 112px;
+        padding-bottom: 108px;
+    }
+    
+    
+    .overlay{
+    background-image:
+    linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-tablet.jpg);
+    max-width: 768px;
+    }
+
+    /* -----------------Qualities------------------ */
+
+    .qualities-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .qualities-list .item{
+        flex-basis: calc((100% - 24px)/2);
+    }
+
+    /* -----------------Our team------------------ */
+
+    .our-team-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+    .our-team-list .item{
+        width: 264px;
+    }
+
+    /* -----------------Customers------------------ */
+
+    .customers-container{
+        padding: 96px 108px;
+    }
+    .customers-list{
+        gap: 24px;
+    }
+
+    .customers-list .item{
+        width: calc((100% - 2*24px)/3);
+    }
+    
+    /* -----------------Footert------------------ */
+
+    .footer-container{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding: 96px 108px;
+        
+    }
+
+    .footer-subtitle{
+        text-align: left;
+    }
+
+    .footer-text {
+        text-align: left;
+    }
+
+    .footer-form-title{
+        text-align: left;
+    }
+
+    .footer-logo{
+        text-align: left;
+    }
+
+
+}
