@@ -843,6 +843,8 @@ p,ul {
     background-color: #FFFFFF;
     z-index: 999;
 
+    transform: translateX(101%);
+
     transition: transform 250ms var(--animation-cubic);
 }
 .menu-slider-button {
@@ -862,9 +864,8 @@ p,ul {
 .menu-icon{
 }
 
-.menu-slider{
-    transform: translateX(100%);
-}
+
+
 .menu-slider.is-open{
     transform: translateX(0);
 }
