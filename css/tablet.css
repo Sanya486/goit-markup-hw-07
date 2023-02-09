@@ -149,5 +149,47 @@
         text-align: left;
     }
 
+    .footer-form-wrap{
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer-form input[type="email"]{
+        width: 264px;
+    }
+
+    /* -----------------Modal------------------ */
+
+    .backdrop .modal{
+        width: 408px;
+    }
+    /* ****************Portfolio********************/
+    /* -----------------Filter------------------ */
+
+
+    .filter{
+        padding-top: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 96px;
+    }
+    .filter-list{
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    /* -----------------Examples------------------ */
+
+    .examples-list{
+        flex-direction: row;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .examples-list .item{
+        width: calc((100% - 24px)/2);
+    }
+
 
 }
+
