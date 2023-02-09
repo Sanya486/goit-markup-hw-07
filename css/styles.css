@@ -136,10 +136,7 @@ body {
     position: relative;
 }
 
-.address {
-    display: flex;
-    margin-left: auto;
-}
+
 .address-list{
     display: flex;
 }
