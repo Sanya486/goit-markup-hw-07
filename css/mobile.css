@@ -1003,3 +1003,140 @@ p,ul {
     display: block;
 }
 
+/* ***********************Porfolio*********************** */
+
+/* -----------------Filter------------------ */
+
+.filter{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+
+.filter-item {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--logo-style-color) ;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+    transition: color 250ms var(--animation-cubic), 
+    background-color 250ms var(--animation-cubic),
+    border-color 250ms var(--animation-cubic),
+    box-shadow 250ms var(--animation-cubic);
+}
+
+.filter-item:hover,
+.filter-item:focus {
+    color:var(--simple-white);
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-list {
+    display: flex;
+    margin-bottom: 72px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.filter .filter-item{
+    padding: 12px 24px;
+}
+
+/* -----------------Exmaple------------------ */
+
+.examples-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--headline-color);
+    margin-bottom: 8px;
+}
+
+.example-type {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.examples-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:48px;
+
+    
+}
+
+.examples-list .item{
+    hi
+}
+
+
+.examples-list .text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+}
+
+.examples-list-link{
+    display: block;
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms var(--animation-cubic);
+}
+
+.examples-list-link:hover,
+.examples-list-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
+.img-overlay{
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-text {
+    position: absolute;
+    display: inline-block;
+    top: 100%;
+    left: 0;
+
+    
+
+    padding: 40px 32px;
+
+    width: 100%;
+    height: 100%;
+
+    background: #4D5AE5;
+    background-blend-mode: soft-light;
+    mix-blend-mode: normal;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+}
+.examples-list .item:hover .overlay-text{
+    transform: translate(0, -100%); 
+}
+
+.examples-image{
+    width: 396px;
+}
