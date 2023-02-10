@@ -865,11 +865,7 @@ p,ul {
 
     transition: transform 250ms var(--animation-cubic);
 }
-@media screen and (max-height:458px){
-    .menu-slider{
-        display: none;
-    }
-}
+
 .slider-container{
 
 }
@@ -1010,6 +1006,20 @@ p,ul {
     flex-direction: column;
 }
 
+@media screen and (max-height:458px){
+    /* .menu-slider{
+        display: none;
+    } */
+    .menu-slider-wrap{
+        flex-direction: row;
+        gap:20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu-slider-address{
+        margin-top: 0;
+    }
+}
 /* -----------------Utilities------------------ */
 
 .title-secondary-level {
