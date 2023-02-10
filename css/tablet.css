@@ -9,10 +9,6 @@
 
     .container {
         max-width: 768px;
-        padding-left: 16px;
-        padding-right: 16px;
-        margin-left: auto;
-        margin-right: auto;
     }
     
 
@@ -75,9 +71,9 @@
     
     
     .overlay{
-    background-image:
-    linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-tablet.jpg);
-    max-width: 768px;
+        background-image:
+        linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-tablet.jpg);
+        max-width: 768px;
     }
 
     /* -----------------Qualities------------------ */

@@ -1,3 +1,149 @@
 @media screen and (min-width:1200px){
+    .container{
+        max-width:1152px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    /* -----------------Header------------------ */
+
+    .address-list{
+        display: flex;
+        gap: 40px;
+    }
+    .address-list .address-item{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .logo{
+        margin-right: 76px;
+    }
+
+    /* -----------------Hero section------------------ */
+
+    .headline-section {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
     
+    .overlay{
+        background-image:
+        linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office.jpg);
+        max-width: 1440px;
+        background-size:cover;
+    }
+
+    .headline-section-title{
+        font-size: 56px;
+        line-height: 1.07;
+
+    }
+
+    /* -----------------Qualities------------------ */
+
+    .qualities-list{
+        flex-wrap: nowrap;
+        gap: 24px;
+
+    }
+
+    .qualities-list .item{
+        flex-basis: calc((100% - 3*24px)/4);
+    }
+
+    .our-qualities-icon-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-bottom: 8px;
+        width: 264px;
+        height: 112px;
+        background-color: var(--logo-footer-color);
+        border-radius: 4px;
+    }
+
+    .icon-qualities {
+
+        width: 64px;
+        height: 64px;
+    }
+
+    .qualities-list .title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--headline-color);
+        margin-bottom: 8px;
+
+        text-align: left;
+    }
+
+    .qualities-list .text {
+        font-weight: 400;
+    }
+
+     /* -----------------Our team------------------ */
+
+    .our-team{
+        background: #F4F4FD;
+    }
+    .our-team-list{
+        flex-wrap: nowrap;
+
+    }
+    .our-team-container{
+        padding-bottom: 120px;
+        padding-top: 120px;
+        background: none;
+    }
+
+     /* -----------------Works------------------ */
+
+    .works{
+        display: block;
+        padding-bottom: 120px;
+    }
+    
+    
+    .works-list {
+        display: flex;
+        gap: 24px;
+    }
+    
+    /* -----------------Customers------------------ */
+
+    .customers-container{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    
+    .customers-list .item{
+        width: calc((100% - 5*24px)/6);
+    }
+
+    /* -----------------Footert------------------ */
+
+    .footer{
+        background-color: #2E2F42
+    }
+    .footer-logo-wrap{
+        margin-right: 120px;
+    }
+
+    .footer-social{
+        margin-right: auto;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        gap: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+    }
 }
+
