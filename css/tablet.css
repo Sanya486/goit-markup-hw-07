@@ -86,6 +86,13 @@
         max-width: 768px;
     }
 
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
+        .overlay{
+            background-image:
+            linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-tablet-2x.jpg);
+    }
+    }
+
     /* -----------------Qualities------------------ */
 
     .qualities-list {

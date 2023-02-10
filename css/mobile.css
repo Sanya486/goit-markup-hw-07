@@ -211,6 +211,12 @@ p,ul {
     margin-left: auto;
     max-width: 419px;
 }
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
+    .overlay{
+        background-image:
+        linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-mobile-2x.jpg);
+}
+}
 .headline-section-title {
     
     margin-bottom: 72px;
@@ -1154,6 +1160,6 @@ p,ul {
     transform: translate(0, -100%); 
 }
 
-.examples-image{
-    width: 396px;
+.examples-image {
+    width: 100%;
 }
