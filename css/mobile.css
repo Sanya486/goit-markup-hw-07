@@ -60,7 +60,7 @@ p,ul {
 }
 
 .header-style {
-    height: 70px;
+    height: 76px;
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -132,7 +132,7 @@ p,ul {
 }
 
 .navigation-list .nav-link {
-    display: inline-block;
+    display: block;
 }
 
 .navigation-list .item+.item{

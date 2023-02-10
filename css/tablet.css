@@ -25,7 +25,8 @@
     /* -----------------Navigation------------------ */
 
     .navigation {
-        display: block;
+        display: block;       
+        
     }
 
     .navigation-list {
@@ -35,6 +36,8 @@
     }
 
     .navigation-list .nav-link{
+
+        height: 100%;
 
         font-family: 'Roboto';
         font-style: normal;
@@ -60,6 +63,13 @@
         line-height: 16px;
         letter-spacing: 0.04em;
         color: #434455;
+        color:currentColor;
+        transition: color 250ms var(--animation-cubic);
+    }
+
+    .address-item:hover,
+    .address-item:focus {
+        color: var(--logo-style-color);
     }
 
     /* -----------------Hero section------------------ */
@@ -184,6 +194,12 @@
 
     .examples-list .item{
         width: calc((100% - 24px)/2);
+    }
+
+    /* -----------------Examples------------------ */
+
+    .menu-slider-wrap{
+        display: none;
     }
 
 
