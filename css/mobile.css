@@ -207,21 +207,38 @@ p,ul {
     linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-mobile.jpg);
     background-repeat:no-repeat ;
     background-position: center;
+    background-size: cover;
     margin-right: auto;
     margin-left: auto;
-    max-width: 419px;
+    max-width: 428px;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
     .overlay{
         background-image:
         linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-mobile-2x.jpg);
+    }
 }
+@media screen and (min-width:429px) {
+    .overlay{
+        background-image:
+        linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-tablet.jpg);
+        max-width: 768px;
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
+        .overlay{
+            background-image:
+            linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-tablet-2x.jpg);
+        }
+    }
 }
 .headline-section-title {
     
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
+
+    padding-left: 16px;
+    padding-right: 16px;
 
 
     text-align: center;
@@ -260,8 +277,6 @@ p,ul {
 
 .qualities {
     padding: 96px 16px;
-    
-
 }
 
 .qualities-list .title {
@@ -321,11 +336,10 @@ p,ul {
 .our-team-container{
     padding-top: 96px;
     padding-bottom: 96px;
-    background-color:var(--logo-footer-color);
 }
 
 .our-team{
-
+    background-color:var(--logo-footer-color);
 }
 
 .our-team-list {
@@ -458,6 +472,7 @@ p,ul {
 /* -----------------Footert------------------ */
 
 .footer {
+    background-color: #2E2F42;
 }
 
 .footer-logo{
@@ -490,7 +505,6 @@ p,ul {
     gap: 72px;
     padding-top: 96px;
     padding-bottom: 96px;
-    background-color: #2E2F42;
 }
 
 .footer-social{
@@ -516,7 +530,7 @@ p,ul {
     align-items: center;  
 
     border-radius: 50%;
-    background-color: var(--footer-social-logo-color);
+    background: rgba(255, 255, 255, 0.1);
     
     transition: background-color 250ms var(--animation-cubic);
 }

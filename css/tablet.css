@@ -1,4 +1,4 @@
-@media screen and (min-width:768px){
+@media screen and (min-width:769px){
     /* -----------------Menu-slider------------------ */
     .menu-toggle{
         display: none;
@@ -82,14 +82,14 @@
     
     .overlay{
         background-image:
-        linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-tablet.jpg);
-        max-width: 768px;
+        linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-desktop.jpg);
+        max-width: 1440px;
     }
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
         .overlay{
             background-image:
-            linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-tablet-2x.jpg);
+            linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office-desktop-2x.jpg);
     }
     }
 
@@ -102,6 +102,10 @@
         
         row-gap: 72px;
         column-gap: 24px;
+    }
+
+    .qualities-list .title{
+        text-align: left;
     }
 
     .qualities-list .item{
