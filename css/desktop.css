@@ -1,8 +1,8 @@
 @media screen and (min-width:1200px){
     .container{
         max-width:1152px;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     /* -----------------Header------------------ */
@@ -154,6 +154,16 @@
         display: flex;
         gap: 24px;
     }
+
+    .works-list .item{
+        width: calc((100% - 2*24px) / 3);
+    }
+
+    .works-img{
+        width: 100%;
+    }
+
+
     
     /* -----------------Customers------------------ */
 

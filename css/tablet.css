@@ -1,4 +1,4 @@
-@media screen and (min-width:769px){
+@media screen and (min-width:768px){
     /* -----------------Menu-slider------------------ */
     .menu-toggle{
         display: none;
@@ -193,6 +193,9 @@
     /* ****************Portfolio********************/
     /* -----------------Filter------------------ */
 
+    .filter-container{
+        max-width: 768px;
+    }
 
     .filter{
         padding-top: 64px;
