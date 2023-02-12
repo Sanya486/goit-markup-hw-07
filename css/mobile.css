@@ -219,9 +219,6 @@ p,ul {
     font-size: 36px;
     line-height: 1.11;
 
-    padding-left: 16px;
-    padding-right: 16px;
-
 
     text-align: center;
     letter-spacing: 0.02em;
@@ -258,7 +255,7 @@ p,ul {
 /* -----------------Qualities------------------ */
 
 .qualities {
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .qualities-list .title {
@@ -304,13 +301,9 @@ p,ul {
 /* -----------------Our team------------------ */
 
 
-.our-team-container{
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
-
 .our-team{
     background-color:var(--logo-footer-color);
+     padding: 96px 0;
 }
 
 .our-team-list {
@@ -388,8 +381,8 @@ p,ul {
 
 /* -----------------Customers------------------ */
 
-.customers-container{
-    padding: 96px 16px;
+.customers{
+    padding: 96px 0;
 }
 .customers .title{
     font-size: 36px;
@@ -444,6 +437,7 @@ p,ul {
 
 .footer {
     background-color: #2E2F42;
+    padding: 96px 0;
 }
 
 .footer-logo{
@@ -453,7 +447,9 @@ p,ul {
 
 
 .footer-text {
-    text-align: center;
+    padding-left: 64px; 
+
+    text-align: left;
     margin-top: 16px;
     font-size: 16px;
     line-height: 1.5;
@@ -474,8 +470,6 @@ p,ul {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding-top: 96px;
-    padding-bottom: 96px;
 }
 
 

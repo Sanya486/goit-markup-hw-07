@@ -17,7 +17,7 @@
 
 <body>
     <header class="header-style">
-        <div class="header container">
+        <div class="header container header-container">
             <a href="./index.html" class="logo"><span class="logo-first-part">Web</span><span class="logo-second-part">Studio</span></a>
             <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
                 <svg class="menu-icon" width="32" height="22">
@@ -41,84 +41,86 @@
     </header>
     <main class="main">
         <section class="headline-section overlay">
-            
-                <h1 class="headline-section-title" >Effective Solutions <br /> for Your Business</h1>
-            
-                <button type="button" class="headline-section-button" data-modal-open>Order Service</button>
-            
-            
+                <div class="container">
+                    <h1 class="headline-section-title" >Effective Solutions <br /> for Your Business</h1>
+                    <button type="button" class="headline-section-button" data-modal-open>Order Service</button>   
+                </div >
         </section>
         <section class="qualities">
-            <h2 class="visually-hidden" >Our Qualities</h2>
-            <ul class="qualities-list container">
-                <li class="list item">
-                    <div class="our-qualities-icon-container">
-                        <svg class="icon-qualities">
-                            <use href="./images/icons.svg#icon-antenna"></use>
-                        </svg>
-                    </div>
-                    
-                    <h3 class="title">Strategy</h3>
-                    <p class="text">Our goal is to identify the business
-                        problem to walk away with the perfect and creative solution.</p>
-                </li>
-                <li class="list item">
-                    <div class="our-qualities-icon-container">
-                        <svg class="icon-qualities">
-                            <use href="./images/icons.svg#icon-clock"></use>
-                        </svg>
-                    </div>
-                    <h3 class="title">Punctuality</h3>
-                    <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
-                <li class="list item">
-                    <div class="our-qualities-icon-container">
-                        <svg class="icon-qualities">
-                            <use href="./images/icons.svg#icon-diagram"></use>
-                        </svg>
-                    </div>
-                    <h3 class="title">Diligence</h3>
-                    <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>
-                <li class="list item">
-                    <div class="our-qualities-icon-container">
-                        <svg class="icon-qualities">
-                            <use href="./images/icons.svg#icon-astronaut"></use>
-                        </svg>
-                    </div>
-                    <h3 class="title">Technologies</h3>
-                    <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
+            <div class="container our-qualities-container">
+                <h2 class="visually-hidden" >Our Qualities</h2>
+                <ul class="qualities-list">
+                    <li class="list item">
+                        <div class="our-qualities-icon-container">
+                            <svg class="icon-qualities">
+                                <use href="./images/icons.svg#icon-antenna"></use>
+                            </svg>
+                        </div>
+                        
+                        <h3 class="title">Strategy</h3>
+                        <p class="text">Our goal is to identify the business
+                            problem to walk away with the perfect and creative solution.</p>
+                    </li>
+                    <li class="list item">
+                        <div class="our-qualities-icon-container">
+                            <svg class="icon-qualities">
+                                <use href="./images/icons.svg#icon-clock"></use>
+                            </svg>
+                        </div>
+                        <h3 class="title">Punctuality</h3>
+                        <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                    </li>
+                    <li class="list item">
+                        <div class="our-qualities-icon-container">
+                            <svg class="icon-qualities">
+                                <use href="./images/icons.svg#icon-diagram"></use>
+                            </svg>
+                        </div>
+                        <h3 class="title">Diligence</h3>
+                        <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                    </li>
+                    <li class="list item">
+                        <div class="our-qualities-icon-container">
+                            <svg class="icon-qualities">
+                                <use href="./images/icons.svg#icon-astronaut"></use>
+                            </svg>
+                        </div>
+                        <h3 class="title">Technologies</h3>
+                        <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                    </li>
+                </ul>
+            </div >
         </section>
         <section class="works">
-            <h2 class="title-secondary-level">What are we doing</h2>
-            <ul class="works-list  container">
-                <li class="list">
-                    <img 
-                    srcset=
-                        "./images/mac_pro.jpg 1x, 
-                        ./images/works/mac_pro-2x.jpg 2x"
-                    src="./images/mac_pro.jpg" alt="Mac Pro"  width="360" class="img-fix" />
-                </li>
-                <li class="list">
-                    <img 
-                    srcset=
-                        "./images/iphone_desktops.jpg 1x, 
-                        ./images/works/iphone_desktops-2x.jpg 2x"
-                    src="./images/iphone_desktops.jpg" alt="Iphone Desktops" width="360" class="img-fix" />
-                </li>
-                <li class="list">
-                    <img 
-                    srcset=
-                        "./images/iphone_on_the_hand.jpg 1x, 
-                        ./images/works/iphone_on_the_hand-2x.jpg 2x"
-                    src="./images/iphone_on_the_hand.jpg" alt="Iphone on the hand" width="360" class="img-fix" />
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="title-secondary-level">What are we doing</h2>
+                <ul class="works-list">
+                    <li class="list">
+                        <img 
+                        srcset=
+                            "./images/mac_pro.jpg 1x, 
+                            ./images/works/mac_pro-2x.jpg 2x"
+                        src="./images/mac_pro.jpg" alt="Mac Pro"  width="360" class="img-fix" />
+                    </li>
+                    <li class="list">
+                        <img 
+                        srcset=
+                            "./images/iphone_desktops.jpg 1x, 
+                            ./images/works/iphone_desktops-2x.jpg 2x"
+                        src="./images/iphone_desktops.jpg" alt="Iphone Desktops" width="360" class="img-fix" />
+                    </li>
+                    <li class="list">
+                        <img 
+                        srcset=
+                            "./images/iphone_on_the_hand.jpg 1x, 
+                            ./images/works/iphone_on_the_hand-2x.jpg 2x"
+                        src="./images/iphone_on_the_hand.jpg" alt="Iphone on the hand" width="360" class="img-fix" />
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="our-team">
-            <div class="container our-team-container">
+            <div class="container">
                 
             <h2 class="title-secondary-level our-team-title">Our Team</h2>
             <ul class="list our-team-list">
@@ -289,7 +291,7 @@
             </div>
         </section>
         <section class="customers">
-            <div class="container customers-container">
+            <div class="container">
                 <h2 class="title">Customers</h2>
                 <ul class="customers-list list">
                     <li class="item">

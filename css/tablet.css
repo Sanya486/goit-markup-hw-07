@@ -3,13 +3,19 @@
     .menu-toggle{
         display: none;
     }
+    .container {
+        max-width: 584px;
+    }
+
     /* -----------------Header------------------ */
 
-
-
-    .container {
+    .header-container{
         max-width: 768px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
+
+    
     
 
     .address{
@@ -95,6 +101,12 @@
 
     /* -----------------Qualities------------------ */
 
+    .our-qualities-container{
+        max-width: 768px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .qualities-list {
         
         flex-direction: row;
@@ -123,7 +135,7 @@
         row-gap: 64px;
     }
     .our-team-list .item{
-        width: 264px;
+        width: calc((100% - 24px)/2);
     }
 
     /* -----------------Customers------------------ */
@@ -146,7 +158,6 @@
         flex-direction:row;
         flex-wrap: wrap;
         gap: 24px;
-        padding: 96px 108px;
         
     }
 
@@ -154,14 +165,13 @@
         text-align: left;
     }
 
-    .footer-text {
-        text-align: left;
-    }
-
     .footer-form-title{
         text-align: left;
     }
 
+    .footer-text{
+        padding-left: 0;
+    }
     .footer-logo{
         text-align: left;
     }
@@ -186,8 +196,6 @@
 
     .filter{
         padding-top: 64px;
-        padding-left: 16px;
-        padding-right: 16px;
         padding-bottom: 96px;
     }
     .filter-list{

@@ -183,10 +183,7 @@
         display: flex;
         flex-direction:row;
         flex-wrap: nowrap;
-        gap: 0;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        
+        gap: 0;  
     }
 
     /* ****************Portfolio********************/
